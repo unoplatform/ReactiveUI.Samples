@@ -26,13 +26,13 @@ namespace UI
             switch (segue.Identifier)
             {
                 case "TimerModalSegue":
-                    var dialog = segue.DestinationController as TimerModal;
+                    var dialog = segue.DestinationController as Modal;
                     dialog.Presenter = this;
                     dialog.ViewModel.TimerValue = this.ViewModel.TimerValue;
                     break;
             }
         }
-        protected override void ComposeObservable()
+        protected override void ComposeObservables()
         {
             this.WhenAnyObservable(x => x.ViewModel.StartTimerCommand)
                 .Do(_ => this.Log().Debug(Constants.TimerModalSegue))

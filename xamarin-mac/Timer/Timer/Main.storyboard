@@ -718,10 +718,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="655"/>
         </scene>
-        <!--Timer Modal-->
+        <!--Modal-->
         <scene sceneID="AyJ-QY-vYd">
             <objects>
-                <viewController id="xne-nD-srZ" customClass="TimerModal" sceneMemberID="viewController">
+                <viewController id="xne-nD-srZ" customClass="Modal" sceneMemberID="viewController">
                     <view key="view" id="mqc-qi-9yP">
                         <rect key="frame" x="0.0" y="0.0" width="379" height="101"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -729,7 +729,7 @@
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0xN-qz-t21">
                                 <rect key="frame" x="149" y="42" width="109" height="17"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="TimerModalLabel" id="FC1-po-GnJ">
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="ModalLabel" id="FC1-po-GnJ">
                                     <font key="font" usesAppearanceFont="YES"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>

@@ -85,9 +85,11 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="MainViewModel.cs" />
-    <Compile Include="Timer\TimerModal.cs" />
-    <Compile Include="Timer\TimerModalViewModel.cs" />
-    <Compile Include="Timer\TimerViewModel.cs" />
+    <Compile Include="Modal.cs" />
+    <Compile Include="Modal.designer.cs">
+      <DependentUpon>Modal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModalViewModel.cs" />
     <Compile Include="ViewController.cs" />
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
@@ -95,9 +97,6 @@
     <Compile Include="ViewControllerBase.cs" />
     <Compile Include="ViewModelBase.cs" />
     <Compile Include="Constants.cs" />
-    <Compile Include="Timer\TimerModal.designer.cs">
-      <DependentUpon>TimerModal.cs</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />

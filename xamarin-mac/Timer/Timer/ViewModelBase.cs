@@ -11,6 +11,8 @@ namespace UI
             ComposeObservables();
         }
 
+        public virtual string Id { get; }
+
         protected CompositeDisposable ViewModelRegistrations { get; } = new CompositeDisposable();
 
         protected abstract void ComposeObservables();
